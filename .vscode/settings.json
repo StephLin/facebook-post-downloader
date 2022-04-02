@@ -1,0 +1,10 @@
+{
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [100]
+  },
+  "editor.tabSize": 2,
+  "prettier.printWidth": 100,
+  "licenser.license": "BSD3",
+}

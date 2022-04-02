@@ -1,0 +1,10 @@
+{
+  "download_button_name": {
+    "message": "Download",
+    "description": "The download button name"
+  },
+  "text_content_is_not_complete_warning_message": {
+    "message": "The content is not complete!",
+    "description": "The warning message to inform that the text content is not complete"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "download_button_name": {
+    "message": "下載",
+    "description": "The download button name"
+  },
+  "text_content_is_not_complete_warning_message": {
+    "message": "內文資訊不完整！請先點選「顯示更多」按鈕，再點選「下載」按鈕。",
+    "description": "The warning message to inform that the text content is not complete"
+  }
+}

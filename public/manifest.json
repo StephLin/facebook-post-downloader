@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Facebook Post Downloader",
+  "version": "0.1.0",
+  "description": "A Chrome extension to download or backup Facebook posts in a click",
+  "default_locale": "en",
+  "icons": {
+    "16": "icons/icon_16.ico",
+    "32": "icons/icon_32.ico",
+    "48": "icons/icon_48.ico",
+    "128": "icons/icon_128.ico"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Facebook Post Downloader"
+  },
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/*"
+      ],
+      "run_at": "document_idle",
+      "js": [
+        "contentScript.js"
+      ]
+    }
+  ]
+}
