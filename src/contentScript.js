@@ -57,7 +57,7 @@ function renderFacebookPostFromHeader(element) {
   return true;
 }
 
-var collectionIntervalId = setInterval(() => {
+setInterval(() => {
   let posts = document.getElementsByTagName("h4");
   Array.from(posts).forEach((element) => renderFacebookPostFromHeader(element));
 
